@@ -8,12 +8,16 @@ and most importantly, editable by humans.
 
 inspired by [prose], [jekyll], [editdata], [scully], [mulder], [rainbows]
 
-git deployments
-cli/api template based page generation
-markdown wysiwigs
-updates are just commits
-drafts are maybe secretly PRs
-don't show the user what they don't need to know
+- git deployments
+- cli/api template based page generation
+- markdown wysiwigs
+- page updates are just commits
+- drafts are maybe secretly PRs
+- never show the user what they don't need to know
+- git/github is for developers
+- developers are not normal people
+- no one should have to deal with low-level stuff to make a decent site
+- basically jekyll but wordpress but node but choo
 
 now i just have to write it
 
