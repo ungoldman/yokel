@@ -1,0 +1,45 @@
+{
+  "name": "yokel",
+  "description": "(working title)",
+  "version": "1.0.0-alpha",
+  "author": "Nate Goldman <ungoldman@gmail.com> (http://ungoldman.com/)",
+  "bugs": {
+    "url": "https://github.com/ungoldman/yokel/issues"
+  },
+  "dependencies": {
+    "bankai": "^3.3.1",
+    "browserify": "^13.1.0",
+    "choo": "^3.3.0",
+    "choodown": "0.0.1",
+    "express": "^4.14.0",
+    "font-awesome": "^4.6.3",
+    "global": "^4.3.1",
+    "highlight.js": "^9.7.0",
+    "markdown-it": "^8.0.0",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-deflist": "^2.0.1",
+    "markdown-it-emoji": "^1.3.0",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-ins": "^2.0.0",
+    "markdown-it-mark": "^2.0.0",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "server-router": "^3.0.0",
+    "sheetify": "^5.1.1",
+    "style.css": "^1.0.0-alpha-8"
+  },
+  "devDependencies": {
+    "standard": "^8.4.0"
+  },
+  "homepage": "https://github.com/ungoldman/yokel#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ungoldman/yokel.git"
+  },
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "standard"
+  }
+}
