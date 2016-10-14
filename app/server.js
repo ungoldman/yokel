@@ -10,7 +10,9 @@ const clientPath = path.join(__dirname, 'client.js')
 
 const assets = bankai()
 const css = assets.css()
-const js = assets.js(browserify, clientPath)
+const js = assets.js(browserify, clientPath, {
+  transform: ['brfs']
+})
 const html = assets.html({
   title: 'hello',
   body: client.toString('/', { message: 'hello server!' })

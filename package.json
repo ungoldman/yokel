@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "bankai": "^3.3.1",
+    "brfs": "^1.4.3",
     "browserify": "^13.1.0",
     "choo": "^3.3.0",
     "choodown": "0.0.1",

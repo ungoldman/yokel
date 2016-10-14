@@ -1,3 +1,7 @@
+var fs = require('fs')
+var path = require('path')
+var text = fs.readFileSync(path.join(__dirname, 'sample.md'), { encoding: 'utf-8' })
+
 // this is definitely not the right way to do a model
 // just brute forcing some prototype stuff
 module.exports = {
@@ -21,7 +25,7 @@ module.exports = {
       },
       markdown: {
         mode: 'render',
-        text: '# Page Title\nClick the edit button to change page content.'
+        text: text
       }
     }
   },
